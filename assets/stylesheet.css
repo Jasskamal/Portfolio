@@ -12,23 +12,26 @@ body {
 
 /* Header layout*/
 header {
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: skyblue;
+    background-color: rgb(9, 59, 77);
     color: #000000;
-    border-bottom: 7px solid lightseagreen;
+    border-bottom: 3px solid skyblue;
 }
 
 /* h1 layout*/
-header h1 {
+h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 30px;
 }
 
 header {
     z-index: 2;
     position: fixed;
     width: 100%;
+    height: 50px;
+    text-align: left;
+    padding: 5px;
+    
 }
 
 /* Nav-Bar layout */
@@ -38,10 +41,6 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
 }
 
 header nav ul li {
@@ -58,11 +57,11 @@ a {
     display: inline-flex;
     flex-wrap: wrap;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 50px;
     height: 80% auto;
     width: 50%;
-    border-right: 4px solid lightseagreen;
-    border-bottom: 4px solid lightseagreen;
+    border-right: 2px solid skyblue;
+    border-bottom: 2px solid skyblue;
     margin-bottom: 25px;
 }
 
