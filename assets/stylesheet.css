@@ -4,9 +4,10 @@
     margin: 0;
 }
 
-/* White Background */
+/* Background image */
 body {
     background-color: #000000;
+    background-image: url("../images/background.jpg");
 }
 
 /* Header layout*/
@@ -77,6 +78,7 @@ a {
     margin-top: 150px;
     border: 3px dashed skyblue;
     text-align: center;
+    background-color: black;
 }
 .dashedbox, .flexbox {
     border-radius: 8px;
