@@ -82,17 +82,18 @@ span{
     border: 3px dashed skyblue;
     text-align: center;
     background-color: black;
+    border-radius: 0px 50px 0px 50px;
 }
-.dashedbox, .flexbox {
-    border-radius: 8px;
-    
+.flexbox {
+    border-radius: 20px 20px 0px 0px;
 }
+
 p {
     color: rgb(0, 0, 0);
 }  
   .dashedbox:hover {
     box-shadow: inset 0px 0px 8px skyblue, 0 0 15px skyblue;
-    border-radius:30px;
+    border-radius: 50px 0px 50px 0px;
     font-size: 16px;
     height: 175px;
     background-color: skyblue;
@@ -103,13 +104,10 @@ p {
     position: absolute;
     width: 50%;
     top: -70px;
-    right: 70px;
     
     text-align: center;
     border-style: solid;
-    border-width: 1px;
     margin: 20px auto;
-    font-size: 10px;
     color: skyblue;
 }
 /* ContactInfo */
