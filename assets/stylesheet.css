@@ -53,28 +53,32 @@ a {
 }
 
 /* Main body */
-.myPicture {
-    display: inline-flex;
-    flex-wrap: wrap;
-    position: absolute;
+.carousel-item img {
     margin-top: 50px;
-    height: 80% auto;
-    width: 50%;
+    height: 90% auto;
+    width: 90%;
     border-right: 2px solid skyblue;
     border-bottom: 2px solid skyblue;
     margin-bottom: 25px;
+    border-radius: 0px 60px 0px 60px;
+}
+.instructions{
+    color: skyblue;
+}
+span{
+    color: #000000;
 }
 
 .dashedbox{
     position: relative;
     display: inline-flex;
+    top: -450px;
     float: right;
     flex-wrap: wrap;
     height: 150px;
     width: 350px;
-    margin: 25px auto;
+    margin-top: 100px;
     margin-left: 850px;
-    margin-top: 150px;
     border: 3px dashed skyblue;
     text-align: center;
     background-color: black;
@@ -98,9 +102,9 @@ p {
 .flexbox {
     position: absolute;
     width: 50%;
-    top: -60px;
+    top: -70px;
     right: 70px;
-    padding: 10px;
+    
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -111,9 +115,10 @@ p {
 /* ContactInfo */
 .contact{
     display: inline-block;
-    height: 50px;
+    height: 60px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 0px 50px 0px 50px;
     background-color: white;
     font-size: 22px;
     text-align: center;

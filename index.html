@@ -3,6 +3,7 @@
 
     <head>
       <meta charset="UTF-8" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="./assets/stylesheet.css">
       <title>About Me</title>
     </head>
@@ -31,9 +32,38 @@
 
        <!--BODY-->
         <main>
-            <img class="myPicture" src="./images/IMG_A8CCC9D8F04C-1.jpeg" alt="My Picture">
+            <div class="col-sm-5 col-md-5 col-lg-5">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                  <div class="carousel-item active" id="item-1">
+                    <img class="img-responsive center-block" src="images/myPic1.jpeg">
+                  </div>
+                  <div class="carousel-item" id="item-2">
+                    <img class="img-responsive center-block" src="images/myPic2.jpeg">
+                  </div>
+                  <div class="carousel-item" id="item-3">
+                    <img class="img-responsive center-block" src="./images/myPic3.jpeg">
+                  </div>
+                  <div class="carousel-item" id="item-4">
+                    <img class="img-responsive center-block" src="./images/myPic4.jpeg">
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+              </div>
+          </div>
         </main>
         <section1 class="section1"> 
+          <h2 class="instructions">
+            <br>
+            <b><i>Hover over to read content: </i></b>
+          </h2>
             <section class="dashedbox">
             <div class="flexbox">
               <h2>Bio</h2>
@@ -53,14 +83,15 @@
             <p>
               <ul>
                 <br>
+                <span><i>Click on work to open</i></span>
                 <li><a href="https://jasskamal.github.io/Weather/"><b>1. Weather Dashboard </b></a></li>
-                <br>
+              
                 <li><a href="https://jasskamal.github.io/PasswordGenerator/"><b>2. Password Generator </b></a></li>
-                <br>
+                
                 <li><a href="https://jasskamal.github.io/CodeQuiz/"><b>3. Code Quiz </b></a></li>
-                <br>
+                
                 <li><a href="https://jasskamal.github.io/Marvels/"><b>4. Marvels Search Engine </b></a></li>
-                <br>
+                
               </ul>
             </p>
           </section>
@@ -76,9 +107,12 @@
                 </li>
             </ul>
         </section2>
-        <!--Footer-->
-        <footer class="footer">
-            <h2> Made with ❤️ by Jass</h2>
-        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
+    <!--Footer-->
+    <footer class="footer">
+      <h2> Made with ❤️ by Jass</h2>
+  </footer>
 </html>
