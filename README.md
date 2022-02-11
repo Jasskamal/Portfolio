@@ -1,5 +1,5 @@
 # Portfolio
-This is my personal Portfolio which includes my Bio, Acedemics, Works I have done, Github Button and Contact Info:
+This is my personal Portfolio which includes my Pictures, Bio, Acedemics, Works I have done, Github Button and Contact Info:
 
 ## Installation
 Click on the link below to view the application!
